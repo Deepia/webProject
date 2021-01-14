@@ -2,7 +2,7 @@ const express= require("express");
 const path=require("path");
 const hbs=require("hbs");
 const app=express();
-const port=process.env.port || 8000;
+const port=process.env.PORT || 8000;
 const templates_path=path.join(__dirname,"../src/templates/views")
 const partial_path=path.join(__dirname,"../src/templates/partials")
 //for setting hbs
