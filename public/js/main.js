@@ -15,7 +15,7 @@ if(cityVal===""){
 }
 else{
     try{
-    let url=`http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&appid=474a889e8d8eeff992b854bd1f9cad82`;
+    let url=`https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&appid=474a889e8d8eeff992b854bd1f9cad82`;
     const response= await fetch(url);
     const data= await response.json();
     const arrData=[data];
